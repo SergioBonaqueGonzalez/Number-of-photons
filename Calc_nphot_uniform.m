@@ -23,6 +23,6 @@ July,2019 - Wooptix S.L.
 
 spherearea=4*pi*(sourcedistance^2);
 I=power/spherearea; %This is the energy per unit area per second.Divide the energy by the energy of a single photon to get the number of photons per unit area multiply by the area of the sensor or entrance pupil
-nphot=exposuretime*area*I/(6.62607004e-34*physconst('LightSpeed')/lambda);
+nphot=round(exposuretime*area*I/(6.62607004e-34*physconst('LightSpeed')/lambda));
 
 end

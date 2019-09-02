@@ -16,6 +16,6 @@ sergiob@wooptix.com
 July,2019 - Wooptix S.L.
 %}
 
-nphot=exposuretime*power/(6.62607004e-34*physconst('LightSpeed')/lambda);
+nphot=round(exposuretime*power/(6.62607004e-34*physconst('LightSpeed')/lambda));
 
 end
