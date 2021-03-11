@@ -3,7 +3,7 @@ Calculates the number of photons emmited by a light source and reaching a define
 
 Developed by Sergio Bonaque-González, PhD.
 
-sergiob@wooptix.com
+sergio.bonaque.gonzalez@gmail.com
 
 www.linkedin.com/in/sergiobonaque
 
